@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<monitor>
+	<firedoors>
+		<firedoor>
+			<image>
+				<url>E:/消防门/FireDoorMonitorProject/FireDoorMonitor/FireDoorMonitor/camera1</url>
+				<format>jpg</format>
+				<begin-index>1</begin-index>
+				<end-index>7</end-index>
+			</image>
+			<threshold>
+				<brightness>15.0</brightness>
+				<point>0.65</point>
+			</threshold>
+		</firedoor>
+		<firedoor>
+			<image>
+				<url>E:/消防门/FireDoorMonitorProject/FireDoorMonitor/FireDoorMonitor/camera2</url>
+				<format>jpg</format>
+				<begin-index>1</begin-index>
+				<end-index>9</end-index>
+			</image>
+			<threshold>
+				<brightness>20.0</brightness>
+				<point>0.65</point>
+			</threshold>
+		</firedoor>
+		<firedoor>
+			<image>
+				<url>E:/消防门/FireDoorMonitorProject/FireDoorMonitor/FireDoorMonitor/camera3</url>
+				<format>jpg</format>
+				<begin-index>1</begin-index>
+				<end-index>9</end-index>
+			</image>
+			<threshold>
+				<brightness>20.0</brightness>
+				<point>0.85</point>
+			</threshold>
+		</firedoor>
+	</firedoors>
+</monitor>
